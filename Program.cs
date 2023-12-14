@@ -5,7 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            var pizza = new Pizza();
+            var pizza = new Pizza() { Name = "Itallian" }; //need to give name of pizza at contruction time
+
+            //pizza.Name = "Test";  //could not be set if property has only init feature
             /*Console.WriteLine("I ate " + pizza.Name + " pizza");*/
             //pizza.Name = "Test"; //cannot be set if property is read only
             //pizza.Name = null;

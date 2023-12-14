@@ -27,16 +27,21 @@ namespace PropertiesPractice
 
         public Pizza() 
         { 
+          
             OnSale = true;
         }
+
+      
 
         // 5) Properties Validation
         /* string name;
          public string Name { get => name; set { name = (!string.IsNullOrWhiteSpace(value)) ? value : throw new ArgumentException("Name must not be blank"); } }*/
 
         // 6) Read Only
-        public string Name { get; }
+        /*public string Name { get; }*/
 
+        // 7) Init Only
+        public required string Name { get; init; }
 
     }
 }
