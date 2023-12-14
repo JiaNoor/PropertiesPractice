@@ -1,0 +1,14 @@
+D:\Practice Projects\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.exe
+D:\Practice Projects\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.deps.json
+D:\Practice Projects\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.runtimeconfig.json
+D:\Practice Projects\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.dll
+D:\Practice Projects\PropertiesPractice\bin\Debug\net8.0\PropertiesPractice.pdb
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.AssemblyInfoInputs.cache
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.AssemblyInfo.cs
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.csproj.CoreCompileInputs.cache
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.dll
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\refint\PropertiesPractice.dll
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.pdb
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\PropertiesPractice.genruntimeconfig.cache
+D:\Practice Projects\PropertiesPractice\obj\Debug\net8.0\ref\PropertiesPractice.dll
