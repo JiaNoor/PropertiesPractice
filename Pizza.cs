@@ -31,11 +31,12 @@ namespace PropertiesPractice
         }
 
         // 5) Properties Validation
-        string name;
-        public string Name { get => name; set { name = (!string.IsNullOrWhiteSpace(value)) ? value : throw new ArgumentException("Name must not be blank"); } }
+        /* string name;
+         public string Name { get => name; set { name = (!string.IsNullOrWhiteSpace(value)) ? value : throw new ArgumentException("Name must not be blank"); } }*/
+
+        // 6) Read Only
+        public string Name { get; }
 
 
-
-       
     }
 }
