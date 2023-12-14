@@ -10,7 +10,7 @@ namespace PropertiesPractice
     internal class Pizza
     {
         // 1)Property syntax
-        public string Name { get; set; }
+       /* public string Name { get; set; }*/
 
         // 2)Setting property value to default
 
@@ -29,6 +29,12 @@ namespace PropertiesPractice
         { 
             OnSale = true;
         }
+
+        // 5) Properties Validation
+        string name;
+        public string Name { get => name; set { name = (!string.IsNullOrWhiteSpace(value)) ? value : throw new ArgumentException("Name must not be blank"); } }
+
+
 
        
     }
