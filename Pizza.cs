@@ -8,13 +8,16 @@ namespace PropertiesPractice
 {
     internal class Pizza
     {
-        //  Property syntax
+        // 1)Property syntax
         //public string Name { get; set; }
 
-        // setting property value to default
+        // 2)Setting property value to default
 
-        public string Name { get; set; } = "Itallian";
+        //public string Name { get; set; } = "Itallian";
 
+        // 3)Define the storage yourself
+        string name;
+        public string Name { get => name; set { name = value.ToUpper(); }}
 
     }
 }
