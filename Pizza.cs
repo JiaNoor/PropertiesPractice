@@ -61,5 +61,10 @@ namespace PropertiesPractice
                 return name;
             }
         }
+
+        // 10) Auto-Implemented  Properties:  same as normal property sytax, declaring the entire property in one line
+        [field: NonSerialized]
+        public int PizzaId { get; set; }
+
     }
 }

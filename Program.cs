@@ -16,7 +16,13 @@
             var pizza = new Pizza();
             pizza.Place = "Itallian";
             pizza.Flavor = "Bbq";
-            Console.WriteLine("I ate " + pizza.Name + " pizza. The pizza is " + (pizza.OnSale ? "on sale" : "not on sale"));
+            Console.WriteLine("I ate " + pizza.Name + " pizza. The pizza is " + (pizza.OnSale ? "on sale" : "not on sale") + " with Id: "+ pizza.PizzaId);
+
+            var pizza2 = new Pizza();
+            pizza2.Place = "Arabic";
+            pizza2.Flavor = "Fajita";
+            pizza2.PizzaId = 2;
+            Console.WriteLine("I ate " + pizza2.Name + " pizza. The pizza is " + (pizza2.OnSale ? "on sale" : "not on sale") + " with Id: " + pizza2.PizzaId);
         }
     }
 }
