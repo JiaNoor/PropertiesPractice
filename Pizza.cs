@@ -41,7 +41,11 @@ namespace PropertiesPractice
         /*public string Name { get; }*/
 
         // 7) Init Only
-        public required string Name { get; init; }
+        /*public required string Name { get; init; }*/
 
+        // 8) Computed Properties
+        public string Place { get; set; }
+        public string Flavor { get; set; }
+        public string Name { get { return $"{Place} {Flavor}"; } }
     }
 }
