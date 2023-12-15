@@ -9,19 +9,19 @@ namespace PropertiesPractice
 {
     internal class Pizza
     {
-        // 1)Property syntax
+    // 1)Property syntax
        /* public string Name { get; set; }*/
 
-        // 2)Setting property value to default
+    // 2)Setting property value to default
 
         /*public string Name { get; set; } = "Itallian";*/
 
-        // 3)Define the storage yourself
+    // 3)Define the storage yourself
         /*string name;
         public string Name { get => name; set { name = value.ToUpper(); }}*/
 
 
-        // 4) restrict user access to change properties by making them private
+    // 4) restrict user access to change properties by making them private
         /* by this the property can get from everywhere but can set only from it's own class*/
         public bool OnSale {  get; private set; }
 
@@ -31,7 +31,7 @@ namespace PropertiesPractice
             OnSale = true;
         }
 
-      
+
 
         // 5) Properties Validation
         /* string name;
@@ -44,8 +44,22 @@ namespace PropertiesPractice
         /*public required string Name { get; init; }*/
 
         // 8) Computed Properties
+        /*  public string Place { get; set; }
+            public string Flavor { get; set; }
+            public string Name { get { return $"{Place} {Flavor}"; } }*/
+
+        // 9) Cached evaluated properties:  computed property with storage and create a cached evaluated property
         public string Place { get; set; }
         public string Flavor { get; set; }
-        public string Name { get { return $"{Place} {Flavor}"; } }
+        private string? name;
+        public string Name
+        {
+            get
+            {
+                if (name is null)
+                    name = $"{Place} {Flavor}";
+                return name;
+            }
+        }
     }
 }
